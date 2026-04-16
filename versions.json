@@ -1,281 +1,375 @@
-[
-  {
-    "id": "v1",
-    "date": { "en": "April 14–16, 2026", "es": "14–16 Abril, 2026" },
-    "period": { "en": "Week 1 — NAB Launch", "es": "Semana 1 — Lanzamiento NAB" },
-    "tag": { "en": "Launch Beta", "es": "Beta de Lanzamiento" },
-    "tagClass": "sb-mid",
-    "sources": { "en": "11 sources", "es": "11 fuentes" },
-    "scorecards": {
-      "perception": { "en": "Positive",  "es": "Positiva",   "cls": "sv-pos" },
-      "maturity":   { "en": "Moderate",  "es": "Moderada",   "cls": "sv-mid" },
-      "replaces":   { "en": "Partial",   "es": "Parcial",    "cls": "sv-mid" },
-      "potential":  { "en": "High",      "es": "Alto",       "cls": "sv-pos" },
-      "user":       { "en": "Hybrid",    "es": "Híbrido",    "cls": "sv-blue" }
+,{
+  "id": "v2",
+  "date": { "en": "April 16–17, 2026", "es": "16–17 Abril, 2026" },
+  "period": { "en": "Week 2 — First Hands-On Reviews", "es": "Semana 2 — Primeras Reviews de Primera Mano" },
+  "tag": { "en": "Hands-On Reviews", "es": "Reviews de Primera Mano" },
+  "tagClass": "sb-mid",
+  "sources": { "en": "14 sources + direct user observations", "es": "14 fuentes + observaciones directas de usuarios" },
+  "scorecards": {
+    "perception": { "en": "Mixed", "es": "Mixta", "cls": "sv-mid" },
+    "maturity":   { "en": "Low — v1 gaps confirmed", "es": "Baja — gaps de v1 confirmados", "cls": "sv-neg" },
+    "replaces":   { "en": "Not yet", "es": "Todavía no", "cls": "sv-neg" },
+    "potential":  { "en": "High", "es": "Alto", "cls": "sv-pos" },
+    "user":       { "en": "Hybrid / Colorist", "es": "Híbrido / Colorista", "cls": "sv-blue" }
+  },
+  "segments": [
+    { "label": { "en": "Colorists / Videomakers", "es": "Coloristas / Videomakers" }, "value": 90, "color": "var(--green)" },
+    { "label": { "en": "Hybrid creators", "es": "Creadores híbridos" }, "value": 74, "color": "var(--green)" },
+    { "label": { "en": "Adobe-frustrated photographers", "es": "Fotógrafos hartos de Adobe" }, "value": 55, "color": "var(--amber)" },
+    { "label": { "en": "Pure professional photographers", "es": "Fotógrafos puros (pros)" }, "value": 28, "color": "var(--amber)" },
+    { "label": { "en": "Studio / tethered photographers", "es": "Fotógrafos de estudio" }, "value": 20, "color": "var(--red)" }
+  ],
+  "quote": {
+    "text": {
+      "en": "\"It is not at all as simple as using Resolve 21 like a traditional photo editor and also getting access to better color editing. It is a significant workflow adjustment.\"",
+      "es": "\"No es tan simple como usar Resolve 21 como un editor de fotos tradicional y además tener acceso a mejor color. Es un ajuste de workflow significativo.\""
     },
-    "segments": [
-      { "label": { "en": "Colorists / Videomakers",             "es": "Coloristas / Videomakers" },          "value": 88, "color": "var(--green)" },
-      { "label": { "en": "Hybrid creators",                     "es": "Creadores híbridos" },               "value": 76, "color": "var(--green)" },
-      { "label": { "en": "Adobe-frustrated photographers",      "es": "Fotógrafos hartos de Adobe" },       "value": 62, "color": "var(--amber)" },
-      { "label": { "en": "Pure professional photographers",     "es": "Fotógrafos puros (pros)" },          "value": 34, "color": "var(--amber)" },
-      { "label": { "en": "Studio / tethered photographers",     "es": "Fotógrafos de estudio" },            "value": 28, "color": "var(--red)" }
+    "source": "PetaPixel hands-on review, April 16, 2026"
+  },
+  "positives": {
+    "en": [
+      "Color editing tools confirmed as among the best on the market by all hands-on reviewers",
+      "Photo page basic tools (Lift, Pivot, exposure, WB) described as intuitive and easy to grasp quickly",
+      "Color page integration with Power Windows, curves, qualifiers and nodes is genuinely powerful for still images",
+      "Professional scopes (histogram, parade, waveform, vectorscope) available for photo editing — unique in the market",
+      "Resolve FX film stock emulations, halation, dehaze, CineFocus blur and bokeh simulation all work on stills",
+      "Face relighting, blemish removal and AI facial tools available for portrait photographers",
+      "Third-party PowerGrade plugins confirmed working on Photo page (e.g. Jamie Fenn's grade plugin)",
+      "Blackmagic Cloud shared albums confirmed working — real-time collaborative photo review",
+      "Unified pipeline confirmed: same project for tethered shoot, grade, video edit and delivery",
+      "Processing happens at source resolution up to 32K / 400+ megapixels — no quality loss",
+      "Apple iPhone ProRAW support confirmed alongside Canon, Fujifilm, Nikon and Sony",
+      "Free version includes all basic photo editing and color tools — $295 Studio adds AI masking only",
+      "Blackmagic confirmed photo page built directly from user feedback — signals ongoing commitment"
     ],
-    "quote": {
-      "text": {
-        "en": "\"Resolve still isn't a one-to-one Lightroom replacement just yet, but this update makes the gap a lot smaller.\"",
-        "es": "\"Resolve todavía no es un reemplazo uno a uno de Lightroom, pero esta actualización achica bastante la brecha.\""
-      },
-      "source": "Trusted Reviews, April 2026"
-    },
-    "positives": {
-      "en": [
-        "Cinema-grade node-based color pipeline applied to still photos for the first time",
-        "Shared nodes apply a single look across an entire album at once",
-        "Power Windows and Qualifiers for precise local editing",
-        "32-bit float, YRGB color science, wide gamut HDR processing",
-        "Unified photo + video + audio pipeline in a single project — no round-tripping",
-        "LUTs and looks transferable between photo and video instantly",
-        "Albums appear as timelines on Color, Cut and Edit pages",
-        "LightBox view with live real-time grades across the full album",
-        "Lightroom catalog import lowers migration barrier",
-        "Tethered shooting with Sony and Canon — ISO, WB, EV from within Resolve",
-        "Multiuser real-time collaboration on photo albums via Blackmagic Cloud — no competitor offers this",
-        "AI Magic Mask, UltraSharpen, UltraNR, Patch Replacer",
-        "Free version + $295 perpetual Studio license (vs. Adobe subscription)"
-      ],
-      "es": [
-        "Pipeline de color cinematográfico basado en nodos aplicado a stills por primera vez",
-        "Shared nodes aplican un mismo look a todo un álbum de una vez",
-        "Power Windows y Qualifiers para edición local de alta precisión",
-        "Procesamiento 32-bit float, YRGB color science, wide gamut HDR",
-        "Pipeline unificado foto + video + audio en un proyecto — sin round-tripping",
-        "LUTs y looks transferibles entre foto y video de forma inmediata",
-        "Los álbumes aparecen como timelines en Color, Cut y Edit",
-        "LightBox view con grades en tiempo real sobre el álbum completo",
-        "Importación de catálogos Lightroom para facilitar migración",
-        "Tethering Sony y Canon — ISO, WB, EV desde dentro de Resolve",
-        "Colaboración multiusuario en tiempo real sobre álbumes de fotos — ningún competidor ofrece esto",
-        "AI Magic Mask, UltraSharpen, UltraNR, Patch Replacer",
-        "Versión gratuita + licencia perpetua Studio $295 (vs. suscripción Adobe)"
-      ]
-    },
-    "negatives": {
-      "en": [
-        "No Clarity slider — most cited gap by all hands-on reviewers",
-        "Tethering limited to Sony and Canon only — Nikon, Fujifilm, others excluded",
-        "Steep node-based learning curve for photographers without video/color background",
-        "AI Magic Mask behind $295 paywall — Lightroom includes it in base subscription",
-        "No advanced retouching tools (complex healing, liquify) — Photoshop still needed",
-        "Blackmagic Cloud collaboration requires additional subscription",
-        "CEO acknowledged Photo page will receive many tweaks — clearly a v1",
-        "Resolve perceived as slower to ship AI tools than other NLEs",
-        "Long-term freemium sustainability questioned by community"
-      ],
-      "es": [
-        "Sin slider Clarity — gap más citado por todos los reviewers de primera mano",
-        "Tethering limitado a Sony y Canon — Nikon, Fujifilm y otros excluidos",
-        "Curva de aprendizaje pronunciada de nodos para fotógrafos sin background en video",
-        "AI Magic Mask detrás del paywall de $295 — Lightroom lo incluye en la suscripción base",
-        "Sin retoque avanzado (healing complejo, liquify) — Photoshop sigue siendo necesario",
-        "Colaboración Blackmagic Cloud requiere suscripción adicional",
-        "CEO reconoció que la Photo page recibirá muchos ajustes — claramente una v1",
-        "Resolve percibido como más lento en implementar AI vs. otros NLEs",
-        "Sostenibilidad del modelo freemium cuestionada a largo plazo"
-      ]
-    },
-    "bugs": [
-      {
-        "title": { "en": "Missing Clarity slider", "es": "Ausencia del slider Clarity" },
-        "severity": "high",
-        "desc": {
-          "en": [
-            "No direct equivalent to Lightroom's Clarity tool in Photo page",
-            "Affects portrait, landscape, street photography workflows",
-            "Mentioned by Engadget hands-on and multiple beta testers independently",
-            "Possible workaround via Midtone Detail in sharpening — not equivalent"
-          ],
-          "es": [
-            "Sin equivalente directo al slider Clarity de Lightroom en la Photo page",
-            "Afecta workflows de retrato, paisaje y fotografía urbana",
-            "Mencionado por Engadget primera mano y múltiples beta testers de forma independiente",
-            "Posible workaround via Midtone Detail en sharpening — no es equivalente"
-          ]
-        }
-      },
-      {
-        "title": { "en": "Tethering limited to 2 brands", "es": "Tethering limitado a 2 marcas" },
-        "severity": "high",
-        "desc": {
-          "en": [
-            "Only Sony and Canon supported for tethered shooting",
-            "Nikon, Fujifilm, Olympus, Panasonic excluded",
-            "Affects studios with mixed equipment",
-            "No announced timeline for expanding support"
-          ],
-          "es": [
-            "Solo Sony y Canon soportados para tethered shooting",
-            "Nikon, Fujifilm, Olympus, Panasonic excluidos",
-            "Afecta estudios con equipamiento mixto",
-            "No hay fechas anunciadas para ampliar el soporte"
-          ]
-        }
-      },
-      {
-        "title": { "en": "General beta instability", "es": "Inestabilidad general de beta" },
-        "severity": "medium",
-        "desc": {
-          "en": [
-            "Expected for public beta — Blackmagic's standard NAB→IBC cycle",
-            "Do not use on critical production projects until final release",
-            "Final version likely around IBC 2026 (September)"
-          ],
-          "es": [
-            "Esperado en contexto de beta pública — ciclo estándar NAB→IBC de Blackmagic",
-            "No usar en proyectos críticos hasta la versión final",
-            "Versión final probablemente alrededor de IBC 2026 (septiembre)"
-          ]
-        }
-      },
-      {
-        "title": { "en": "Perceived AI feature lag vs. competitors", "es": "Rezago percibido en AI vs. competidores" },
-        "severity": "low",
-        "desc": {
-          "en": [
-            "Community perception that Resolve ships AI features slower than Premiere",
-            "Resolve 21 closes part of the gap with 8 new AI tools",
-            "Not a technical bug — roadmap perception gap"
-          ],
-          "es": [
-            "Percepción comunitaria de que Resolve implementa AI más lentamente que Premiere",
-            "Resolve 21 cierra parte de la brecha con 8 nuevas herramientas AI",
-            "No es un bug técnico — gap de percepción de roadmap"
-          ]
-        }
-      }
+    "es": [
+      "Herramientas de color confirmadas como de las mejores del mercado por todos los reviewers de primera mano",
+      "Las herramientas básicas de la Photo page (Lift, Pivot, exposición, WB) descritas como intuitivas y fáciles de captar rápido",
+      "La integración con la Color page con Power Windows, curves, qualifiers y nodos es genuinamente poderosa para stills",
+      "Scopes profesionales (histograma, parade, waveform, vectorscope) disponibles para foto — único en el mercado",
+      "Resolve FX emulaciones de stock de película, halation, dehaze, CineFocus y bokeh artificial funcionan en fotos",
+      "Face relighting, blemish removal y herramientas AI faciales disponibles para fotógrafos de retrato",
+      "Plugins PowerGrade de terceros confirmados funcionando en la Photo page (ej. plugin de Jamie Fenn)",
+      "Blackmagic Cloud shared albums confirmado funcionando — revisión colaborativa de fotos en tiempo real",
+      "Pipeline unificado confirmado: el mismo proyecto para shoot tethered, grade, edición de video y entrega",
+      "El procesamiento ocurre en resolución fuente hasta 32K / 400+ megapíxeles — sin pérdida de calidad",
+      "Soporte de Apple iPhone ProRAW confirmado junto con Canon, Fujifilm, Nikon y Sony",
+      "La versión gratuita incluye todas las herramientas básicas de foto y color — el Studio de $295 agrega solo AI masking",
+      "Blackmagic confirmó que la Photo page fue construida directamente a partir del feedback de usuarios — señal de compromiso continuo"
+    ]
+  },
+  "negatives": {
+    "en": [
+      "No Clarity slider — still the most cited gap, confirmed by every hands-on reviewer this week",
+      "No healing brush — confirmed missing, major gap for portrait and event photographers",
+      "Tethering limited to Sony and Canon — Nikon, Fujifilm, Panasonic, Leica, OM System, Hasselblad, Sigma excluded",
+      "Source Transform setting in RAW tab confuses photographers — not relevant for most photo workflows, creates noise",
+      "Color Space and Gamma controls in RAW tab are overwhelming and confusing for photography users coming from Lightroom",
+      "No print workflow support — professional photographers cannot deliver print-ready files from Resolve",
+      "No Lightroom Preset import — photographers can bring their catalog but lose all their preset libraries",
+      "Digital Asset Management (DAM) capabilities are basic — metadata, keywording and search far behind Lightroom",
+      "Critical export bug: when Quick Exporting an entire album, color space silently changes to Original — colors shift unexpectedly",
+      "Workaround required: must manually set output color space to sRGB in Settings / Color Management for correct export",
+      "Advanced color tools (curves, qualifiers, Power Windows) are NOT on the Photo page — require navigating to separate Color page",
+      "Workflow is significantly more complex than Lightroom — steep ramp before reaching parity in daily speed",
+      "RAW support gaps: Panasonic, Leica, Hasselblad, OM System and Sigma cameras not supported at all"
     ],
-    "improvements": {
-      "short": {
+    "es": [
+      "Sin slider Clarity — sigue siendo el gap más citado, confirmado por todos los reviewers de primera mano esta semana",
+      "Sin healing brush — confirmado ausente, gap mayor para fotógrafos de retrato y eventos",
+      "Tethering limitado a Sony y Canon — Nikon, Fujifilm, Panasonic, Leica, OM System, Hasselblad, Sigma excluidos",
+      "La configuración Source Transform en la pestaña RAW confunde a los fotógrafos — no es relevante para la mayoría de los workflows de foto, genera ruido",
+      "Los controles Color Space y Gamma en la pestaña RAW abruman y confunden a usuarios de fotografía que vienen de Lightroom",
+      "Sin flujo de trabajo de impresión — los fotógrafos profesionales no pueden entregar archivos listos para imprimir desde Resolve",
+      "Sin importación de Presets de Lightroom — los fotógrafos pueden traer su catálogo pero pierden todas sus librerías de presets",
+      "Las capacidades de Gestión de Activos Digitales (DAM) son básicas — metadatos, palabras clave y búsqueda muy por detrás de Lightroom",
+      "Bug crítico de exportación: al exportar rápidamente un álbum completo, el espacio de color cambia silenciosamente a Original — los colores se ven incorrectos",
+      "Se requiere workaround: hay que configurar manualmente el espacio de color de salida a sRGB en Settings / Color Management para exportar correctamente",
+      "Las herramientas de color avanzadas (curves, qualifiers, Power Windows) NO están en la Photo page — requieren navegar a la Color page separada",
+      "El workflow es significativamente más complejo que Lightroom — rampa pronunciada antes de alcanzar paridad de velocidad diaria",
+      "Gaps de soporte RAW: Panasonic, Leica, Hasselblad, OM System y Sigma no tienen soporte en absoluto"
+    ]
+  },
+  "bugs": [
+    {
+      "title": { "en": "Album Quick Export color space bug", "es": "Bug de espacio de color en Quick Export de álbum" },
+      "severity": "high",
+      "desc": {
         "en": [
-          "Clarity slider — most urgent; universally cited",
-          "Tethering for Nikon and Fujifilm — blocks key segments",
-          "AI Magic Mask in free tier — match Lightroom's offer",
-          "More social media export presets",
-          "Better RAW performance with large catalogs",
-          "More complete metadata migration from Lightroom"
+          "When Quick Exporting an entire album, the output color space silently reverts to 'Original' regardless of project settings",
+          "Causes unexpected color shifts in exported JPEGs and TIFFs — files look different from what was graded",
+          "Workaround: go to Settings → Color Management and manually set output color space to sRGB before exporting",
+          "Affects all users trying to deliver web-ready or client files directly from the Photo page",
+          "Reported by multiple beta users in the first week — high severity for production use"
         ],
         "es": [
-          "Slider Clarity — la más urgente; citada universalmente",
-          "Tethering para Nikon y Fujifilm — bloquea segmentos clave",
-          "AI Magic Mask en versión gratuita — igualar oferta de Lightroom",
-          "Más presets de exportación para redes sociales",
-          "Mejor rendimiento RAW con catálogos grandes",
-          "Migración de metadatos más completa desde Lightroom"
-        ]
-      },
-      "long": {
-        "en": [
-          "Advanced retouching (healing, liquify) to reduce Photoshop dependency",
-          "Simplified slider-first mode for photographers unfamiliar with nodes",
-          "Professional face retouching (skin, dodge and burn, frequency separation)",
-          "Large catalog management (100k+ images) with Lightroom Classic parity",
-          "Plugin ecosystem for Photo page",
-          "Integration with delivery platforms (Pic-Time, Pixieset, SmugMug)"
-        ],
-        "es": [
-          "Retoque avanzado (healing, liquify) para reducir dependencia de Photoshop",
-          "Modo simplificado slider-first para fotógrafos sin background en nodos",
-          "Face retouching profesional integrado (piel, dodge and burn, frequency separation)",
-          "Gestión de catálogos 100k+ imágenes con paridad de Lightroom Classic",
-          "Plugin ecosystem para Photo page",
-          "Integración con plataformas de entrega (Pic-Time, Pixieset, SmugMug)"
+          "Al exportar rápidamente un álbum completo, el espacio de color de salida vuelve silenciosamente a 'Original' sin importar la configuración del proyecto",
+          "Causa cambios de color inesperados en JPEGs y TIFFs exportados — los archivos se ven diferentes a lo que se gradeó",
+          "Workaround: ir a Settings → Color Management y configurar manualmente el espacio de color de salida a sRGB antes de exportar",
+          "Afecta a todos los usuarios que intentan entregar archivos listos para web o para clientes directamente desde la Photo page",
+          "Reportado por múltiples usuarios beta en la primera semana — severidad alta para uso en producción"
         ]
       }
     },
-    "insights": [
-      {
-        "num": "01",
-        "title": { "en": "Viable for professional photographers?", "es": "¿Viable para fotógrafos profesionales?" },
-        "body": {
-          "en": "Yes, with conditions. For photographers with a color grading background or who already use Resolve for video, the ROI is immediate. For pure photographers whose workflow revolves around culling speed and skin retouching, it's not a complete replacement yet.",
-          "es": "Sí, con condiciones. Para fotógrafos con background en color o que ya usan Resolve para video, el ROI es inmediato. Para fotógrafos puros cuyo workflow gira en torno a velocidad de culling y retoque de piel, todavía no es un reemplazo completo."
-        }
-      },
-      {
-        "num": "02",
-        "title": { "en": "Who benefits most?", "es": "¿Quién se beneficia más?" },
-        "body": {
-          "en": "The ideal user is the hybrid creator: photographer/filmmaker working in editorial, fashion, events, or documentary. Also professional colorists who want to expand services to the photography market without learning a new tool.",
-          "es": "El usuario ideal es el creador híbrido: fotógrafo/videomaker que trabaja en editorial, moda, eventos o documental. También coloristas profesionales que quieren expandir servicios al mercado fotográfico sin aprender una herramienta nueva."
-        }
-      },
-      {
-        "num": "03",
-        "title": { "en": "Real replacement or complement?", "es": "¿Reemplazo real o complemento?" },
-        "body": {
-          "en": "Currently (v1 beta): a powerful complement for Resolve users and partial replacement for hybrid users. It has the potential to replace 60–70% of Lightroom use cases within 2–3 versions.",
-          "es": "Actualmente (v1 beta): un complemento poderoso para usuarios de Resolve y reemplazo parcial para usuarios híbridos. Tiene el potencial de reemplazar el 60–70% de los casos de uso de Lightroom en 2–3 versiones."
-        }
-      },
-      {
-        "num": "04",
-        "title": { "en": "Future potential?", "es": "¿Potencial futuro?" },
-        "body": {
-          "en": "High. The cinema color science architecture is a structural advantage not easily replicated by Adobe. The no-subscription pricing model is a powerful market argument in an era of subscription fatigue.",
-          "es": "Alto. La arquitectura de color science cinematográfico es una ventaja estructural no replicable fácilmente por Adobe. El modelo sin suscripción es un argumento poderoso en una era de fatiga por suscripciones."
-        }
-      },
-      {
-        "num": "05",
-        "full": true,
-        "title": { "en": "The real differentiator isn't the Photo page — it's the unified pipeline", "es": "El verdadero diferenciador no es la Photo page — es el pipeline unificado" },
-        "body": {
-          "en": "The Lightroom vs. Resolve narrative is reductive. The real differentiator is that a single project can contain the tethered shoot, the cinematic grade, the video editorial, the audio mix, and the final delivery, without switching apps, exporting files, or translating formats. That's a paradigm shift, not a feature.",
-          "es": "La narrativa Lightroom vs. Resolve es simplificadora. El diferenciador real es que un mismo proyecto puede contener el shoot tethered, el grade cinematográfico, el video editorial, el mix de audio y la entrega final, sin cambiar de app, exportar archivos ni traducir formatos. Eso es un cambio de paradigma, no un feature."
-        }
-      }
-    ],
-    "exec": {
-      "points": [
-        { "en": "<strong>Strategic, not incremental launch.</strong> The Photo page is the most significant addition to Resolve since Fusion/Fairlight. Blackmagic is redefining what a creative pipeline means.", "es": "<strong>Lanzamiento estratégico, no incremental.</strong> La Photo page es la adición más significativa desde Fusion/Fairlight. Blackmagic está redefiniendo el concepto de pipeline creativo." },
-        { "en": "<strong>The color engine is the real competitive advantage.</strong> Hollywood node-based color science applied to photography has no equivalent in Lightroom or Capture One.", "es": "<strong>El motor de color es la ventaja competitiva real.</strong> El color science cinematográfico de nodos aplicado a fotografía no tiene equivalente en Lightroom ni Capture One." },
-        { "en": "<strong>Not a complete Lightroom replacement — yet.</strong> Missing Clarity, limited tethering, and immature large-catalog handling position it as a partial alternative.", "es": "<strong>No es un reemplazo completo de Lightroom — todavía.</strong> La ausencia de Clarity, tethering limitado e inmadurez en catálogos grandes lo ubican como alternativa parcial." },
-        { "en": "<strong>Pricing is a powerful market argument.</strong> Free or $295 perpetual vs. Adobe's indefinite subscription. High subscription fatigue drives adoption.", "es": "<strong>El precio es un argumento de mercado poderoso.</strong> Gratis o $295 perpetuo vs. suscripción indefinida de Adobe. Alta fatiga de suscripciones impulsa la adopción." },
-        { "en": "<strong>Ideal user is the hybrid photo/video creator.</strong> Immediate, frictionless value. Pure photographers face a real learning curve and feature gaps.", "es": "<strong>El usuario ideal es el creador híbrido foto/video.</strong> Valor inmediato y sin fricción. Fotógrafos puros enfrentan curva de aprendizaje y gaps de features reales." },
-        { "en": "<strong>Real-time collaboration on photos is a market first.</strong> No other photography tool enables simultaneous multiuser collaboration on albums.", "es": "<strong>La colaboración en tiempo real sobre fotos es un primero en el mercado.</strong> Ninguna otra herramienta fotográfica permite colaboración multiusuario simultánea en álbumes." },
-        { "en": "<strong>Ambitious v1 with a clear roadmap.</strong> Monitor the final release around IBC 2026 and v21.1+ to evaluate production readiness.", "es": "<strong>v1 ambiciosa con roadmap claro.</strong> Monitorear la versión final alrededor de IBC 2026 y v21.1+ para evaluar madurez production-ready." }
-      ],
-      "risks": {
+    {
+      "title": { "en": "Missing Clarity slider", "es": "Ausencia del slider Clarity" },
+      "severity": "high",
+      "desc": {
         "en": [
-          { "level": "h", "text": "Missing features (Clarity, universal tethering) block adoption in key professional segments" },
-          { "level": "h", "text": "Node learning curve discourages pure photographers from switching" },
-          { "level": "m", "text": "Freemium model sustainability questioned long-term" },
-          { "level": "m", "text": "Public beta status means instability risk for production use" },
-          { "level": "l", "text": "Adobe could respond with perpetual licenses or aggressive pricing" }
+          "No direct equivalent to Lightroom's Clarity tool in Photo page — confirmed by all hands-on reviewers week 2",
+          "Affects portrait, landscape, street photography and general editing workflows",
+          "No workaround available that produces equivalent results",
+          "Unanimously flagged as the #1 missing feature across all published reviews"
         ],
         "es": [
-          { "level": "h", "text": "Features faltantes (Clarity, tethering universal) bloquean adopción en segmentos profesionales clave" },
-          { "level": "h", "text": "Curva de aprendizaje de nodos desincentiva a fotógrafos puros a migrar" },
-          { "level": "m", "text": "Sostenibilidad del modelo freemium cuestionada a largo plazo" },
-          { "level": "m", "text": "Estado de beta pública implica riesgo de inestabilidad en producción real" },
-          { "level": "l", "text": "Adobe podría responder con licencias perpetuas o pricing agresivo" }
+          "Sin equivalente directo al slider Clarity de Lightroom en la Photo page — confirmado por todos los reviewers de primera mano en la semana 2",
+          "Afecta workflows de retrato, paisaje, fotografía callejera y edición general",
+          "No hay workaround disponible que produzca resultados equivalentes",
+          "Señalado unánimemente como el feature #1 faltante en todas las reviews publicadas"
         ]
-      },
-      "opportunities": {
+      }
+    },
+    {
+      "title": { "en": "Healing brush missing", "es": "Healing brush ausente" },
+      "severity": "high",
+      "desc": {
         "en": [
-          { "level": "h", "text": "Capture the fast-growing hybrid photo/video creator segment" },
-          { "level": "h", "text": "Market positioning in Adobe subscription fatigue environment" },
-          { "level": "m", "text": "Professional colorists expanding services to photography market" },
-          { "level": "m", "text": "Studios and agencies needing real-time multiuser photo collaboration" },
-          { "level": "l", "text": "First mover in unified photo+video pipeline as a new category" }
+          "No healing brush or clone stamp tool available in the Photo page",
+          "Patch Replacer (available) is limited to small sensor dust and basic blemishes — not a full replacement",
+          "Portrait photographers and event photographers need healing for skin retouching, object removal",
+          "Requires exporting to Photoshop for any healing work — breaks the unified pipeline promise"
         ],
         "es": [
-          { "level": "h", "text": "Capturar el segmento híbrido foto/video en rápido crecimiento" },
-          { "level": "h", "text": "Posicionamiento en el mercado de fatiga por suscripciones de Adobe" },
-          { "level": "m", "text": "Coloristas profesionales expandiendo servicios al mercado fotográfico" },
-          { "level": "m", "text": "Estudios y agencias que necesitan colaboración multiusuario en fotos" },
-          { "level": "l", "text": "Primer mover en pipeline unificado foto+video como categoría nueva" }
+          "Sin healing brush ni clone stamp disponibles en la Photo page",
+          "El Patch Replacer (disponible) está limitado a polvo del sensor y manchas básicas — no es un reemplazo completo",
+          "Los fotógrafos de retrato y eventos necesitan healing para retoque de piel y eliminación de objetos",
+          "Requiere exportar a Photoshop para cualquier trabajo de healing — rompe la promesa del pipeline unificado"
+        ]
+      }
+    },
+    {
+      "title": { "en": "RAW tab UX confusion — Color Space, Gamma and Source Transform", "es": "Confusión de UX en pestaña RAW — Color Space, Gamma y Source Transform" },
+      "severity": "medium",
+      "desc": {
+        "en": [
+          "Color Space and Gamma controls in the RAW tab are exposed to all users including beginners",
+          "These settings are intended for advanced colorimetry workflows — not relevant for standard photo editing",
+          "Source Transform option adds further confusion — photographers don't understand its purpose or impact",
+          "No contextual help or tooltips explain when and why these settings matter",
+          "Multiple beta users report accidentally shifting color rendering by touching these controls unknowingly"
+        ],
+        "es": [
+          "Los controles Color Space y Gamma en la pestaña RAW están expuestos a todos los usuarios incluyendo principiantes",
+          "Estas configuraciones están diseñadas para workflows avanzados de colorimetría — no son relevantes para edición de fotos estándar",
+          "La opción Source Transform agrega mayor confusión — los fotógrafos no entienden su propósito ni su impacto",
+          "Sin ayuda contextual ni tooltips que expliquen cuándo y por qué importan estas configuraciones",
+          "Múltiples usuarios beta reportan haber cambiado accidentalmente el rendering de color al tocar estos controles sin saberlo"
+        ]
+      }
+    },
+    {
+      "title": { "en": "Advanced tools hidden on separate Color page", "es": "Herramientas avanzadas ocultas en Color page separada" },
+      "severity": "medium",
+      "desc": {
+        "en": [
+          "Curves, Power Windows, qualifiers and node editor are NOT on the Photo page — only accessible via Color page tab",
+          "Photographers must learn to navigate between two pages to complete a standard editing workflow",
+          "Creates a mental model mismatch: the 'Photo page' feels incomplete without its most powerful tools",
+          "PetaPixel reviewer described this as 'somewhat bizarre' and a significant UX friction point"
+        ],
+        "es": [
+          "Curves, Power Windows, qualifiers y el node editor NO están en la Photo page — solo accesibles via la pestaña Color page",
+          "Los fotógrafos deben aprender a navegar entre dos páginas para completar un workflow de edición estándar",
+          "Crea una falta de coincidencia en el modelo mental: la 'Photo page' se siente incompleta sin sus herramientas más poderosas",
+          "El reviewer de PetaPixel describió esto como 'algo bizarro' y un punto significativo de fricción de UX"
+        ]
+      }
+    },
+    {
+      "title": { "en": "Tethering limited to Sony and Canon", "es": "Tethering limitado a Sony y Canon" },
+      "severity": "high",
+      "desc": {
+        "en": [
+          "Only Sony and Canon supported — Nikon, Fujifilm, Panasonic, Leica, Hasselblad, OM System and Sigma excluded",
+          "Panasonic, Leica, Hasselblad, OM System and Sigma also have no RAW support at all",
+          "Affects a large portion of professional photographers and studio shooters",
+          "No announced timeline for expanding camera support"
+        ],
+        "es": [
+          "Solo Sony y Canon soportados — Nikon, Fujifilm, Panasonic, Leica, Hasselblad, OM System y Sigma excluidos",
+          "Panasonic, Leica, Hasselblad, OM System y Sigma tampoco tienen soporte RAW en absoluto",
+          "Afecta a una gran proporción de fotógrafos profesionales y fotógrafos de estudio",
+          "No hay fechas anunciadas para ampliar el soporte de cámaras"
+        ]
+      }
+    },
+    {
+      "title": { "en": "No Lightroom preset import", "es": "Sin importación de presets de Lightroom" },
+      "severity": "medium",
+      "desc": {
+        "en": [
+          "Lightroom catalog structure (albums, metadata) imports correctly but preset libraries do not transfer",
+          "Photographers migrating from Lightroom lose years of built preset workflows",
+          "No LUT conversion or preset migration tool available",
+          "Significant barrier for photographers considering a full switch from Adobe"
+        ],
+        "es": [
+          "La estructura del catálogo de Lightroom (álbumes, metadatos) se importa correctamente pero las librerías de presets no se transfieren",
+          "Los fotógrafos que migran desde Lightroom pierden años de workflows de presets construidos",
+          "No hay herramienta de conversión de LUT ni de migración de presets disponible",
+          "Barrera significativa para fotógrafos que consideran migrar completamente desde Adobe"
+        ]
+      }
+    },
+    {
+      "title": { "en": "No print workflow support", "es": "Sin soporte de flujo de trabajo de impresión" },
+      "severity": "medium",
+      "desc": {
+        "en": [
+          "No soft proofing, no print color profiles, no direct print output from the Photo page",
+          "Professional photographers delivering fine art prints or lab orders cannot use Resolve as their only tool",
+          "Lightroom and Capture One both have mature print modules — Resolve has none",
+          "Requires a separate application for any print delivery workflow"
+        ],
+        "es": [
+          "Sin soft proofing, sin perfiles de color de impresión, sin salida de impresión directa desde la Photo page",
+          "Los fotógrafos profesionales que entregan impresiones de arte o pedidos de laboratorio no pueden usar Resolve como única herramienta",
+          "Lightroom y Capture One tienen módulos de impresión maduros — Resolve no tiene ninguno",
+          "Requiere una aplicación separada para cualquier workflow de entrega de impresión"
         ]
       }
     }
+  ],
+  "improvements": {
+    "short": {
+      "en": [
+        "Clarity slider — #1 priority, universally demanded by every reviewer and beta user",
+        "Healing brush — essential for portrait and event photographers; Patch Replacer is not a substitute",
+        "Fix Quick Export color space bug — sRGB should be the default output, not Original",
+        "Simplify RAW tab UX — hide or contextually explain Source Transform, Color Space and Gamma for photo users",
+        "Move core tools (curves, Power Windows) to Photo page or add a unified single-page editing view",
+        "Lightroom preset import / LUT conversion tool for migrating users",
+        "Expand tethering: Nikon and Fujifilm as immediate priority",
+        "Expand RAW support: Panasonic, Leica, OM System, Hasselblad, Sigma"
+      ],
+      "es": [
+        "Slider Clarity — prioridad #1, demandado universalmente por todos los reviewers y usuarios beta",
+        "Healing brush — esencial para fotógrafos de retrato y eventos; el Patch Replacer no es un sustituto",
+        "Corregir bug de espacio de color en Quick Export — sRGB debería ser la salida por defecto, no Original",
+        "Simplificar UX de la pestaña RAW — ocultar o explicar contextualmente Source Transform, Color Space y Gamma para usuarios de foto",
+        "Mover herramientas clave (curves, Power Windows) a la Photo page o agregar una vista de edición unificada de una sola página",
+        "Herramienta de importación de presets de Lightroom / conversión de LUT para usuarios que migran",
+        "Expandir tethering: Nikon y Fujifilm como prioridad inmediata",
+        "Expandir soporte RAW: Panasonic, Leica, OM System, Hasselblad, Sigma"
+      ]
+    },
+    "long": {
+      "en": [
+        "Full print workflow module: soft proofing, ICC print profiles, direct lab output",
+        "Professional DAM capabilities: advanced keywording, hierarchical metadata, smart collections, face tagging",
+        "Single unified photo editing page combining Photo and Color page tools without tab switching",
+        "Lightroom-style preset system with import, export, sharing and community preset ecosystem",
+        "Advanced retouching: frequency separation, dodge and burn, liquify",
+        "Plugin ecosystem for Photo page (third-party preset and filter marketplace)",
+        "Integration with delivery platforms (Pic-Time, Pixieset, Smugmug, lab services)"
+      ],
+      "es": [
+        "Módulo completo de flujo de trabajo de impresión: soft proofing, perfiles ICC de impresión, salida directa a laboratorio",
+        "Capacidades DAM profesionales: palabras clave avanzadas, metadatos jerárquicos, colecciones inteligentes, etiquetado de caras",
+        "Una única página de edición de fotos unificada que combine las herramientas de la Photo page y la Color page sin cambio de pestañas",
+        "Sistema de presets estilo Lightroom con importación, exportación, compartir y ecosistema de presets de la comunidad",
+        "Retoque avanzado: separación de frecuencias, dodge and burn, liquify",
+        "Ecosistema de plugins para la Photo page (marketplace de presets y filtros de terceros)",
+        "Integración con plataformas de entrega (Pic-Time, Pixieset, Smugmug, servicios de laboratorio)"
+      ]
+    }
+  },
+  "insights": [
+    {
+      "num": "01",
+      "title": { "en": "The UX gap is bigger than the feature gap", "es": "El gap de UX es mayor que el gap de features" },
+      "body": {
+        "en": "Week 2 hands-on reviews confirm that the core issue isn't just missing features like Clarity — it's that the workflow logic is fundamentally different from Lightroom. Advanced tools live on a separate page, RAW controls expose video-specific settings, and photographers must mentally re-map their entire editing process. Features can be added in patches; workflow paradigm changes take much longer to redesign.",
+        "es": "Las reviews de primera mano de la semana 2 confirman que el problema central no es solo features faltantes como Clarity — es que la lógica del workflow es fundamentalmente diferente a Lightroom. Las herramientas avanzadas viven en una página separada, los controles RAW exponen configuraciones específicas de video, y los fotógrafos deben remapear mentalmente todo su proceso de edición. Los features se pueden agregar en parches; los cambios de paradigma de workflow toman mucho más tiempo para rediseñar."
+      }
+    },
+    {
+      "num": "02",
+      "title": { "en": "The export color space bug is a production blocker", "es": "El bug del espacio de color en exportación es un bloqueador de producción" },
+      "body": {
+        "en": "The silent color space change during Quick Export is not a cosmetic bug — it directly affects client deliverables. A photographer who doesn't know the workaround will deliver files with incorrect colors. This single bug is enough to make the Photo page unusable for professional client work in its current state, and must be treated as a P0 fix.",
+        "es": "El cambio silencioso de espacio de color durante el Quick Export no es un bug cosmético — afecta directamente los entregables para clientes. Un fotógrafo que no conoce el workaround entregará archivos con colores incorrectos. Este único bug es suficiente para hacer que la Photo page sea inutilizable para trabajo profesional con clientes en su estado actual, y debe tratarse como una corrección de prioridad 0."
+      }
+    },
+    {
+      "num": "03",
+      "title": { "en": "DAM capabilities are being underestimated as a gap", "es": "Las capacidades DAM están siendo subestimadas como gap" },
+      "body": {
+        "en": "Most coverage focuses on color tools and missing sliders, but Digital Asset Management is equally important for professional photographers. Keywording, smart collections, face tagging, GPS, and advanced search are daily tools for working photographers. Resolve's album system is functional but nowhere near the depth of Lightroom Classic's catalog — and this gap won't be closed with a small update.",
+        "es": "La mayoría de la cobertura se enfoca en las herramientas de color y los sliders faltantes, pero la Gestión de Activos Digitales es igualmente importante para fotógrafos profesionales. Las palabras clave, colecciones inteligentes, etiquetado de caras, GPS y búsqueda avanzada son herramientas diarias para fotógrafos activos. El sistema de álbumes de Resolve es funcional pero está muy lejos de la profundidad del catálogo de Lightroom Classic — y este gap no se cerrará con una pequeña actualización."
+      }
+    },
+    {
+      "num": "04",
+      "title": { "en": "Blackmagic's response signals they're taking photography seriously", "es": "La respuesta de Blackmagic señala que están tomando la fotografía en serio" },
+      "body": {
+        "en": "The confirmation that the Photo page was built from direct user feedback — and the CEO's own statement that improvements are coming — suggests this is not a one-shot feature. Blackmagic has a track record of iterating aggressively on their pages (the Cut page went from basic to excellent in 3 versions). The question is whether the iteration speed will satisfy photographers before they lose interest.",
+        "es": "La confirmación de que la Photo page fue construida a partir del feedback directo de usuarios — y la propia declaración del CEO de que vienen mejoras — sugiere que esto no es un feature de una sola vez. Blackmagic tiene un historial de iterar agresivamente en sus páginas (la Cut page pasó de básica a excelente en 3 versiones). La pregunta es si la velocidad de iteración satisfará a los fotógrafos antes de que pierdan el interés."
+      }
+    },
+    {
+      "num": "05",
+      "full": true,
+      "title": { "en": "Week 2 verdict: extraordinary potential, not yet a daily driver for photographers", "es": "Veredicto semana 2: potencial extraordinario, todavía no es una herramienta de uso diario para fotógrafos" },
+      "body": {
+        "en": "After the first wave of hands-on reviews, the picture is clearer. The color science is genuinely best-in-class and the unified pipeline is a real innovation. But the combination of missing tools (Clarity, healing brush, print workflow, preset import), critical bugs (export color space), UX confusion (RAW tab, two-page editing model), and limited camera support means that Resolve 21 Photo page is currently a powerful tool for colorists applying their skills to photography — not a ready replacement for working photographers' daily Lightroom or Capture One workflows. The honest timeline for that shift is 2–3 more major versions, assuming Blackmagic prioritizes the right gaps.",
+        "es": "Después de la primera ola de reviews de primera mano, el panorama es más claro. La ciencia del color es genuinamente de primer nivel en el mercado y el pipeline unificado es una innovación real. Pero la combinación de herramientas faltantes (Clarity, healing brush, flujo de impresión, importación de presets), bugs críticos (espacio de color en exportación), confusión de UX (pestaña RAW, modelo de edición de dos páginas) y soporte limitado de cámaras significa que la Photo page de Resolve 21 es actualmente una herramienta poderosa para coloristas aplicando sus habilidades a la fotografía — no un reemplazo listo para los workflows diarios de Lightroom o Capture One de fotógrafos activos. El timeline honesto para ese cambio es de 2–3 versiones principales más, asumiendo que Blackmagic priorice los gaps correctos."
+      }
+    }
+  ],
+  "exec": {
+    "points": [
+      { "en": "<strong>Color science confirmed as world-class.</strong> Every hands-on reviewer agrees: the color tools are extraordinary and genuinely differentiated from Lightroom. This advantage is structural and will not erode.", "es": "<strong>La ciencia del color confirmada como de clase mundial.</strong> Todos los reviewers de primera mano coinciden: las herramientas de color son extraordinarias y genuinamente diferenciadas de Lightroom. Esta ventaja es estructural y no se erosionará." },
+      { "en": "<strong>A critical export bug is blocking production use.</strong> The Quick Export color space issue is a P0 bug — it causes incorrect client deliverables. Blackmagic must patch this before the Photo page can be trusted for professional work.", "es": "<strong>Un bug crítico de exportación está bloqueando el uso en producción.</strong> El problema de espacio de color en Quick Export es un bug de prioridad 0 — causa entregables incorrectos para clientes. Blackmagic debe parchearlo antes de que la Photo page pueda confiarse para trabajo profesional." },
+      { "en": "<strong>The UX model needs rethinking, not just new features.</strong> Hiding advanced tools on a separate page, exposing video-specific RAW controls to photographers, and requiring two-page navigation are paradigm issues — not fixable with a slider addition.", "es": "<strong>El modelo de UX necesita repensar, no solo nuevos features.</strong> Ocultar las herramientas avanzadas en una página separada, exponer controles RAW específicos de video a fotógrafos y requerir navegación de dos páginas son problemas de paradigma — no reparables con la adición de un slider." },
+      { "en": "<strong>Three confirmed hard blockers for professional photographers.</strong> No Clarity, no healing brush, and no print workflow together mean that any photographer working with clients cannot fully replace Lightroom with Resolve 21 today regardless of color quality.", "es": "<strong>Tres bloqueadores confirmados para fotógrafos profesionales.</strong> Sin Clarity, sin healing brush y sin flujo de impresión juntos significan que cualquier fotógrafo que trabaje con clientes no puede reemplazar completamente Lightroom con Resolve 21 hoy, independientemente de la calidad del color." },
+      { "en": "<strong>Blackmagic's iteration signal is encouraging.</strong> The Photo page was explicitly built from user feedback and the CEO confirmed ongoing improvements. Historically, Resolve pages improve rapidly across versions — the trajectory matters as much as the current state.", "es": "<strong>La señal de iteración de Blackmagic es alentadora.</strong> La Photo page fue construida explícitamente a partir del feedback de usuarios y el CEO confirmó mejoras continuas. Históricamente, las páginas de Resolve mejoran rápidamente entre versiones — la trayectoria importa tanto como el estado actual." }
+    ],
+    "risks": {
+      "en": [
+        { "level": "h", "text": "Export color space bug causes wrong client deliverables — P0 production risk right now" },
+        { "level": "h", "text": "No healing brush + no Clarity = cannot replace Lightroom for portrait and event photographers" },
+        { "level": "h", "text": "UX confusion (RAW tab, two-page model) creates bad first impressions that are hard to reverse" },
+        { "level": "m", "text": "No print workflow locks out fine art and lab delivery photographers entirely" },
+        { "level": "m", "text": "No preset import means migrating users lose years of built libraries — major switching friction" },
+        { "level": "l", "text": "Slow iteration could allow Adobe to copy the unified pipeline concept before Resolve matures" }
+      ],
+      "es": [
+        { "level": "h", "text": "Bug de espacio de color en exportación causa entregables incorrectos para clientes — riesgo de producción P0 ahora mismo" },
+        { "level": "h", "text": "Sin healing brush + sin Clarity = no puede reemplazar a Lightroom para fotógrafos de retrato y eventos" },
+        { "level": "h", "text": "Confusión de UX (pestaña RAW, modelo de dos páginas) crea primeras impresiones negativas difíciles de revertir" },
+        { "level": "m", "text": "Sin flujo de impresión excluye completamente a fotógrafos de arte impreso y entrega a laboratorio" },
+        { "level": "m", "text": "Sin importación de presets significa que los usuarios que migran pierden años de librerías construidas — fricción de cambio mayor" },
+        { "level": "l", "text": "Una iteración lenta podría permitir que Adobe copie el concepto de pipeline unificado antes de que Resolve madure" }
+      ]
+    },
+    "opportunities": {
+      "en": [
+        { "level": "h", "text": "Fix the export bug immediately — one patch could restore confidence for professional trials" },
+        { "level": "h", "text": "Add Clarity and healing brush in v21.1 — would shift market perception dramatically overnight" },
+        { "level": "h", "text": "Colorists expanding to photography services: immediate addressable market with no learning curve needed" },
+        { "level": "m", "text": "Simplify the RAW tab for photo users — hide advanced video controls behind an 'Advanced' toggle" },
+        { "level": "m", "text": "Build a Lightroom preset converter — dramatically lower migration friction for the largest potential user base" },
+        { "level": "l", "text": "Announce a print workflow roadmap — signals professional intent and stops the bleeding in that segment" }
+      ],
+      "es": [
+        { "level": "h", "text": "Corregir el bug de exportación inmediatamente — un parche podría restaurar la confianza para pruebas profesionales" },
+        { "level": "h", "text": "Agregar Clarity y healing brush en v21.1 — cambiaría la percepción del mercado dramáticamente de la noche a la mañana" },
+        { "level": "h", "text": "Coloristas expandiéndose a servicios fotográficos: mercado inmediatamente direccionable sin curva de aprendizaje necesaria" },
+        { "level": "m", "text": "Simplificar la pestaña RAW para usuarios de foto — ocultar controles avanzados de video detrás de un toggle 'Avanzado'" },
+        { "level": "m", "text": "Construir un convertidor de presets de Lightroom — reducir dramáticamente la fricción de migración para la base de usuarios potenciales más grande" },
+        { "level": "l", "text": "Anunciar un roadmap de flujo de trabajo de impresión — señala intención profesional y detiene la pérdida en ese segmento" }
+      ]
+    }
   }
-]
+}

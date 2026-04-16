@@ -1,0 +1,281 @@
+[
+  {
+    "id": "v1",
+    "date": { "en": "April 14–16, 2026", "es": "14–16 Abril, 2026" },
+    "period": { "en": "Week 1 — NAB Launch", "es": "Semana 1 — Lanzamiento NAB" },
+    "tag": { "en": "Launch Beta", "es": "Beta de Lanzamiento" },
+    "tagClass": "sb-mid",
+    "sources": { "en": "11 sources", "es": "11 fuentes" },
+    "scorecards": {
+      "perception": { "en": "Positive",  "es": "Positiva",   "cls": "sv-pos" },
+      "maturity":   { "en": "Moderate",  "es": "Moderada",   "cls": "sv-mid" },
+      "replaces":   { "en": "Partial",   "es": "Parcial",    "cls": "sv-mid" },
+      "potential":  { "en": "High",      "es": "Alto",       "cls": "sv-pos" },
+      "user":       { "en": "Hybrid",    "es": "Híbrido",    "cls": "sv-blue" }
+    },
+    "segments": [
+      { "label": { "en": "Colorists / Videomakers",             "es": "Coloristas / Videomakers" },          "value": 88, "color": "var(--green)" },
+      { "label": { "en": "Hybrid creators",                     "es": "Creadores híbridos" },               "value": 76, "color": "var(--green)" },
+      { "label": { "en": "Adobe-frustrated photographers",      "es": "Fotógrafos hartos de Adobe" },       "value": 62, "color": "var(--amber)" },
+      { "label": { "en": "Pure professional photographers",     "es": "Fotógrafos puros (pros)" },          "value": 34, "color": "var(--amber)" },
+      { "label": { "en": "Studio / tethered photographers",     "es": "Fotógrafos de estudio" },            "value": 28, "color": "var(--red)" }
+    ],
+    "quote": {
+      "text": {
+        "en": "\"Resolve still isn't a one-to-one Lightroom replacement just yet, but this update makes the gap a lot smaller.\"",
+        "es": "\"Resolve todavía no es un reemplazo uno a uno de Lightroom, pero esta actualización achica bastante la brecha.\""
+      },
+      "source": "Trusted Reviews, April 2026"
+    },
+    "positives": {
+      "en": [
+        "Cinema-grade node-based color pipeline applied to still photos for the first time",
+        "Shared nodes apply a single look across an entire album at once",
+        "Power Windows and Qualifiers for precise local editing",
+        "32-bit float, YRGB color science, wide gamut HDR processing",
+        "Unified photo + video + audio pipeline in a single project — no round-tripping",
+        "LUTs and looks transferable between photo and video instantly",
+        "Albums appear as timelines on Color, Cut and Edit pages",
+        "LightBox view with live real-time grades across the full album",
+        "Lightroom catalog import lowers migration barrier",
+        "Tethered shooting with Sony and Canon — ISO, WB, EV from within Resolve",
+        "Multiuser real-time collaboration on photo albums via Blackmagic Cloud — no competitor offers this",
+        "AI Magic Mask, UltraSharpen, UltraNR, Patch Replacer",
+        "Free version + $295 perpetual Studio license (vs. Adobe subscription)"
+      ],
+      "es": [
+        "Pipeline de color cinematográfico basado en nodos aplicado a stills por primera vez",
+        "Shared nodes aplican un mismo look a todo un álbum de una vez",
+        "Power Windows y Qualifiers para edición local de alta precisión",
+        "Procesamiento 32-bit float, YRGB color science, wide gamut HDR",
+        "Pipeline unificado foto + video + audio en un proyecto — sin round-tripping",
+        "LUTs y looks transferibles entre foto y video de forma inmediata",
+        "Los álbumes aparecen como timelines en Color, Cut y Edit",
+        "LightBox view con grades en tiempo real sobre el álbum completo",
+        "Importación de catálogos Lightroom para facilitar migración",
+        "Tethering Sony y Canon — ISO, WB, EV desde dentro de Resolve",
+        "Colaboración multiusuario en tiempo real sobre álbumes de fotos — ningún competidor ofrece esto",
+        "AI Magic Mask, UltraSharpen, UltraNR, Patch Replacer",
+        "Versión gratuita + licencia perpetua Studio $295 (vs. suscripción Adobe)"
+      ]
+    },
+    "negatives": {
+      "en": [
+        "No Clarity slider — most cited gap by all hands-on reviewers",
+        "Tethering limited to Sony and Canon only — Nikon, Fujifilm, others excluded",
+        "Steep node-based learning curve for photographers without video/color background",
+        "AI Magic Mask behind $295 paywall — Lightroom includes it in base subscription",
+        "No advanced retouching tools (complex healing, liquify) — Photoshop still needed",
+        "Blackmagic Cloud collaboration requires additional subscription",
+        "CEO acknowledged Photo page will receive many tweaks — clearly a v1",
+        "Resolve perceived as slower to ship AI tools than other NLEs",
+        "Long-term freemium sustainability questioned by community"
+      ],
+      "es": [
+        "Sin slider Clarity — gap más citado por todos los reviewers de primera mano",
+        "Tethering limitado a Sony y Canon — Nikon, Fujifilm y otros excluidos",
+        "Curva de aprendizaje pronunciada de nodos para fotógrafos sin background en video",
+        "AI Magic Mask detrás del paywall de $295 — Lightroom lo incluye en la suscripción base",
+        "Sin retoque avanzado (healing complejo, liquify) — Photoshop sigue siendo necesario",
+        "Colaboración Blackmagic Cloud requiere suscripción adicional",
+        "CEO reconoció que la Photo page recibirá muchos ajustes — claramente una v1",
+        "Resolve percibido como más lento en implementar AI vs. otros NLEs",
+        "Sostenibilidad del modelo freemium cuestionada a largo plazo"
+      ]
+    },
+    "bugs": [
+      {
+        "title": { "en": "Missing Clarity slider", "es": "Ausencia del slider Clarity" },
+        "severity": "high",
+        "desc": {
+          "en": [
+            "No direct equivalent to Lightroom's Clarity tool in Photo page",
+            "Affects portrait, landscape, street photography workflows",
+            "Mentioned by Engadget hands-on and multiple beta testers independently",
+            "Possible workaround via Midtone Detail in sharpening — not equivalent"
+          ],
+          "es": [
+            "Sin equivalente directo al slider Clarity de Lightroom en la Photo page",
+            "Afecta workflows de retrato, paisaje y fotografía urbana",
+            "Mencionado por Engadget primera mano y múltiples beta testers de forma independiente",
+            "Posible workaround via Midtone Detail en sharpening — no es equivalente"
+          ]
+        }
+      },
+      {
+        "title": { "en": "Tethering limited to 2 brands", "es": "Tethering limitado a 2 marcas" },
+        "severity": "high",
+        "desc": {
+          "en": [
+            "Only Sony and Canon supported for tethered shooting",
+            "Nikon, Fujifilm, Olympus, Panasonic excluded",
+            "Affects studios with mixed equipment",
+            "No announced timeline for expanding support"
+          ],
+          "es": [
+            "Solo Sony y Canon soportados para tethered shooting",
+            "Nikon, Fujifilm, Olympus, Panasonic excluidos",
+            "Afecta estudios con equipamiento mixto",
+            "No hay fechas anunciadas para ampliar el soporte"
+          ]
+        }
+      },
+      {
+        "title": { "en": "General beta instability", "es": "Inestabilidad general de beta" },
+        "severity": "medium",
+        "desc": {
+          "en": [
+            "Expected for public beta — Blackmagic's standard NAB→IBC cycle",
+            "Do not use on critical production projects until final release",
+            "Final version likely around IBC 2026 (September)"
+          ],
+          "es": [
+            "Esperado en contexto de beta pública — ciclo estándar NAB→IBC de Blackmagic",
+            "No usar en proyectos críticos hasta la versión final",
+            "Versión final probablemente alrededor de IBC 2026 (septiembre)"
+          ]
+        }
+      },
+      {
+        "title": { "en": "Perceived AI feature lag vs. competitors", "es": "Rezago percibido en AI vs. competidores" },
+        "severity": "low",
+        "desc": {
+          "en": [
+            "Community perception that Resolve ships AI features slower than Premiere",
+            "Resolve 21 closes part of the gap with 8 new AI tools",
+            "Not a technical bug — roadmap perception gap"
+          ],
+          "es": [
+            "Percepción comunitaria de que Resolve implementa AI más lentamente que Premiere",
+            "Resolve 21 cierra parte de la brecha con 8 nuevas herramientas AI",
+            "No es un bug técnico — gap de percepción de roadmap"
+          ]
+        }
+      }
+    ],
+    "improvements": {
+      "short": {
+        "en": [
+          "Clarity slider — most urgent; universally cited",
+          "Tethering for Nikon and Fujifilm — blocks key segments",
+          "AI Magic Mask in free tier — match Lightroom's offer",
+          "More social media export presets",
+          "Better RAW performance with large catalogs",
+          "More complete metadata migration from Lightroom"
+        ],
+        "es": [
+          "Slider Clarity — la más urgente; citada universalmente",
+          "Tethering para Nikon y Fujifilm — bloquea segmentos clave",
+          "AI Magic Mask en versión gratuita — igualar oferta de Lightroom",
+          "Más presets de exportación para redes sociales",
+          "Mejor rendimiento RAW con catálogos grandes",
+          "Migración de metadatos más completa desde Lightroom"
+        ]
+      },
+      "long": {
+        "en": [
+          "Advanced retouching (healing, liquify) to reduce Photoshop dependency",
+          "Simplified slider-first mode for photographers unfamiliar with nodes",
+          "Professional face retouching (skin, dodge and burn, frequency separation)",
+          "Large catalog management (100k+ images) with Lightroom Classic parity",
+          "Plugin ecosystem for Photo page",
+          "Integration with delivery platforms (Pic-Time, Pixieset, SmugMug)"
+        ],
+        "es": [
+          "Retoque avanzado (healing, liquify) para reducir dependencia de Photoshop",
+          "Modo simplificado slider-first para fotógrafos sin background en nodos",
+          "Face retouching profesional integrado (piel, dodge and burn, frequency separation)",
+          "Gestión de catálogos 100k+ imágenes con paridad de Lightroom Classic",
+          "Plugin ecosystem para Photo page",
+          "Integración con plataformas de entrega (Pic-Time, Pixieset, SmugMug)"
+        ]
+      }
+    },
+    "insights": [
+      {
+        "num": "01",
+        "title": { "en": "Viable for professional photographers?", "es": "¿Viable para fotógrafos profesionales?" },
+        "body": {
+          "en": "Yes, with conditions. For photographers with a color grading background or who already use Resolve for video, the ROI is immediate. For pure photographers whose workflow revolves around culling speed and skin retouching, it's not a complete replacement yet.",
+          "es": "Sí, con condiciones. Para fotógrafos con background en color o que ya usan Resolve para video, el ROI es inmediato. Para fotógrafos puros cuyo workflow gira en torno a velocidad de culling y retoque de piel, todavía no es un reemplazo completo."
+        }
+      },
+      {
+        "num": "02",
+        "title": { "en": "Who benefits most?", "es": "¿Quién se beneficia más?" },
+        "body": {
+          "en": "The ideal user is the hybrid creator: photographer/filmmaker working in editorial, fashion, events, or documentary. Also professional colorists who want to expand services to the photography market without learning a new tool.",
+          "es": "El usuario ideal es el creador híbrido: fotógrafo/videomaker que trabaja en editorial, moda, eventos o documental. También coloristas profesionales que quieren expandir servicios al mercado fotográfico sin aprender una herramienta nueva."
+        }
+      },
+      {
+        "num": "03",
+        "title": { "en": "Real replacement or complement?", "es": "¿Reemplazo real o complemento?" },
+        "body": {
+          "en": "Currently (v1 beta): a powerful complement for Resolve users and partial replacement for hybrid users. It has the potential to replace 60–70% of Lightroom use cases within 2–3 versions.",
+          "es": "Actualmente (v1 beta): un complemento poderoso para usuarios de Resolve y reemplazo parcial para usuarios híbridos. Tiene el potencial de reemplazar el 60–70% de los casos de uso de Lightroom en 2–3 versiones."
+        }
+      },
+      {
+        "num": "04",
+        "title": { "en": "Future potential?", "es": "¿Potencial futuro?" },
+        "body": {
+          "en": "High. The cinema color science architecture is a structural advantage not easily replicated by Adobe. The no-subscription pricing model is a powerful market argument in an era of subscription fatigue.",
+          "es": "Alto. La arquitectura de color science cinematográfico es una ventaja estructural no replicable fácilmente por Adobe. El modelo sin suscripción es un argumento poderoso en una era de fatiga por suscripciones."
+        }
+      },
+      {
+        "num": "05",
+        "full": true,
+        "title": { "en": "The real differentiator isn't the Photo page — it's the unified pipeline", "es": "El verdadero diferenciador no es la Photo page — es el pipeline unificado" },
+        "body": {
+          "en": "The Lightroom vs. Resolve narrative is reductive. The real differentiator is that a single project can contain the tethered shoot, the cinematic grade, the video editorial, the audio mix, and the final delivery, without switching apps, exporting files, or translating formats. That's a paradigm shift, not a feature.",
+          "es": "La narrativa Lightroom vs. Resolve es simplificadora. El diferenciador real es que un mismo proyecto puede contener el shoot tethered, el grade cinematográfico, el video editorial, el mix de audio y la entrega final, sin cambiar de app, exportar archivos ni traducir formatos. Eso es un cambio de paradigma, no un feature."
+        }
+      }
+    ],
+    "exec": {
+      "points": [
+        { "en": "<strong>Strategic, not incremental launch.</strong> The Photo page is the most significant addition to Resolve since Fusion/Fairlight. Blackmagic is redefining what a creative pipeline means.", "es": "<strong>Lanzamiento estratégico, no incremental.</strong> La Photo page es la adición más significativa desde Fusion/Fairlight. Blackmagic está redefiniendo el concepto de pipeline creativo." },
+        { "en": "<strong>The color engine is the real competitive advantage.</strong> Hollywood node-based color science applied to photography has no equivalent in Lightroom or Capture One.", "es": "<strong>El motor de color es la ventaja competitiva real.</strong> El color science cinematográfico de nodos aplicado a fotografía no tiene equivalente en Lightroom ni Capture One." },
+        { "en": "<strong>Not a complete Lightroom replacement — yet.</strong> Missing Clarity, limited tethering, and immature large-catalog handling position it as a partial alternative.", "es": "<strong>No es un reemplazo completo de Lightroom — todavía.</strong> La ausencia de Clarity, tethering limitado e inmadurez en catálogos grandes lo ubican como alternativa parcial." },
+        { "en": "<strong>Pricing is a powerful market argument.</strong> Free or $295 perpetual vs. Adobe's indefinite subscription. High subscription fatigue drives adoption.", "es": "<strong>El precio es un argumento de mercado poderoso.</strong> Gratis o $295 perpetuo vs. suscripción indefinida de Adobe. Alta fatiga de suscripciones impulsa la adopción." },
+        { "en": "<strong>Ideal user is the hybrid photo/video creator.</strong> Immediate, frictionless value. Pure photographers face a real learning curve and feature gaps.", "es": "<strong>El usuario ideal es el creador híbrido foto/video.</strong> Valor inmediato y sin fricción. Fotógrafos puros enfrentan curva de aprendizaje y gaps de features reales." },
+        { "en": "<strong>Real-time collaboration on photos is a market first.</strong> No other photography tool enables simultaneous multiuser collaboration on albums.", "es": "<strong>La colaboración en tiempo real sobre fotos es un primero en el mercado.</strong> Ninguna otra herramienta fotográfica permite colaboración multiusuario simultánea en álbumes." },
+        { "en": "<strong>Ambitious v1 with a clear roadmap.</strong> Monitor the final release around IBC 2026 and v21.1+ to evaluate production readiness.", "es": "<strong>v1 ambiciosa con roadmap claro.</strong> Monitorear la versión final alrededor de IBC 2026 y v21.1+ para evaluar madurez production-ready." }
+      ],
+      "risks": {
+        "en": [
+          { "level": "h", "text": "Missing features (Clarity, universal tethering) block adoption in key professional segments" },
+          { "level": "h", "text": "Node learning curve discourages pure photographers from switching" },
+          { "level": "m", "text": "Freemium model sustainability questioned long-term" },
+          { "level": "m", "text": "Public beta status means instability risk for production use" },
+          { "level": "l", "text": "Adobe could respond with perpetual licenses or aggressive pricing" }
+        ],
+        "es": [
+          { "level": "h", "text": "Features faltantes (Clarity, tethering universal) bloquean adopción en segmentos profesionales clave" },
+          { "level": "h", "text": "Curva de aprendizaje de nodos desincentiva a fotógrafos puros a migrar" },
+          { "level": "m", "text": "Sostenibilidad del modelo freemium cuestionada a largo plazo" },
+          { "level": "m", "text": "Estado de beta pública implica riesgo de inestabilidad en producción real" },
+          { "level": "l", "text": "Adobe podría responder con licencias perpetuas o pricing agresivo" }
+        ]
+      },
+      "opportunities": {
+        "en": [
+          { "level": "h", "text": "Capture the fast-growing hybrid photo/video creator segment" },
+          { "level": "h", "text": "Market positioning in Adobe subscription fatigue environment" },
+          { "level": "m", "text": "Professional colorists expanding services to photography market" },
+          { "level": "m", "text": "Studios and agencies needing real-time multiuser photo collaboration" },
+          { "level": "l", "text": "First mover in unified photo+video pipeline as a new category" }
+        ],
+        "es": [
+          { "level": "h", "text": "Capturar el segmento híbrido foto/video en rápido crecimiento" },
+          { "level": "h", "text": "Posicionamiento en el mercado de fatiga por suscripciones de Adobe" },
+          { "level": "m", "text": "Coloristas profesionales expandiendo servicios al mercado fotográfico" },
+          { "level": "m", "text": "Estudios y agencias que necesitan colaboración multiusuario en fotos" },
+          { "level": "l", "text": "Primer mover en pipeline unificado foto+video como categoría nueva" }
+        ]
+      }
+    }
+  }
+]

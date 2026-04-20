@@ -653,4 +653,246 @@
     }
   }
 }
+  {
+  "id": "v1",
+  "date": { "en": "April 14–20, 2026", "es": "14–20 Abril, 2026" },
+  "period": { "en": "Week 1 — NAB 2026 Launch Week", "es": "Semana 1 — Semana de Lanzamiento NAB 2026" },
+  "tag": { "en": "Public Beta Launch", "es": "Lanzamiento Beta Pública" },
+  "tagClass": "sb-mid",
+  "sources": { "en": "14 sources", "es": "14 fuentes" },
+  "scorecards": {
+    "perception": { "en": "Mixed", "es": "Mixta", "cls": "sv-mid" },
+    "maturity":   { "en": "Low", "es": "Baja", "cls": "sv-neg" },
+    "replaces":   { "en": "Partial", "es": "Parcial", "cls": "sv-mid" },
+    "potential":  { "en": "High", "es": "Alto", "cls": "sv-pos" },
+    "user":       { "en": "Hybrid", "es": "Híbrido", "cls": "sv-blue" }
+  },
+  "segments": [
+    { "label": { "en": "Colorists / Videomakers", "es": "Coloristas / Videomakers" }, "value": 87, "color": "var(--green)" },
+    { "label": { "en": "Hybrid creators", "es": "Creadores híbridos" }, "value": 78, "color": "var(--green)" },
+    { "label": { "en": "Adobe-frustrated photographers", "es": "Fotógrafos hartos de Adobe" }, "value": 54, "color": "var(--amber)" },
+    { "label": { "en": "Pure professional photographers", "es": "Fotógrafos puros (pros)" }, "value": 28, "color": "var(--amber)" },
+    { "label": { "en": "Studio / tethered photographers", "es": "Fotógrafos de estudio" }, "value": 41, "color": "var(--red)" }
+  ],
+  "quote": {
+    "text": {
+      "en": "\"Resolve still isn't a one-to-one Lightroom replacement just yet, but this update makes the gap a lot smaller — and for creators already using Resolve for video, having a capable photo workflow in the same app could be a compelling reason to stick around.\"",
+      "es": "\"Resolve todavía no es un reemplazo uno a uno de Lightroom, pero esta actualización reduce bastante la brecha — y para los creadores que ya usan Resolve para video, tener un flujo de trabajo fotográfico capaz en la misma app puede ser una razón convincente para quedarse.\""
+    },
+    "source": "PetaPixel, April 2026"
+  },
+  "positives": {
+    "en": [
+      "Full Hollywood-grade color tools (nodes, curves, qualifiers, power windows) now available for still images — a genuinely unique offering in any photo editor.",
+      "Base version is completely free; full Studio license is a one-time $295 payment, compared to Adobe's recurring ~$120/year Photography Plan.",
+      "Camera tethering support for Canon and Sony cameras with live view, ISO, exposure and white balance adjustments directly inside Resolve.",
+      "Lightroom catalog import enables photographers to migrate existing libraries without losing metadata or organization.",
+      "LightBox view offers real-time previews of entire albums with grades applied — a significant workflow efficiency gain.",
+      "AI IntelliSearch allows searching media libraries by objects, faces, or spoken keywords — a feature Lightroom lacks entirely.",
+      "Native support for Affinity files (v1 and v2) announced the same week, strengthening Resolve's position in non-Adobe creative ecosystems.",
+      "Multiuser collaboration via Blackmagic Cloud extends to the Photo page, enabling shared album access, metadata, grades, and effects.",
+      "Node-based grading workflow is identical to the Color page, meaning colorists can apply their exact video grading skills to stills instantly.",
+      "Public beta is available free to download immediately, lowering the barrier to evaluation."
+    ],
+    "es": [
+      "Las herramientas de color de nivel Hollywood (nodos, curvas, calificadores, power windows) ahora disponibles para imágenes fijas — una propuesta genuinamente única entre editores de fotos.",
+      "La versión base es completamente gratuita; la licencia Studio completa es un pago único de $295, frente al plan recurrente de Adobe (~$120/año).",
+      "Soporte de tethering para cámaras Canon y Sony con vista en vivo, ajustes de ISO, exposición y balance de blancos directamente en Resolve.",
+      "La importación de catálogos de Lightroom permite a los fotógrafos migrar bibliotecas existentes sin perder metadatos ni organización.",
+      "La vista LightBox ofrece previsualizaciones en tiempo real de álbumes completos con los grados aplicados — una mejora notable en eficiencia de flujo de trabajo.",
+      "AI IntelliSearch permite buscar en bibliotecas de medios por objetos, rostros o palabras clave habladas — una función que Lightroom no tiene.",
+      "Soporte nativo para archivos Affinity (v1 y v2) anunciado la misma semana, reforzando la posición de Resolve en ecosistemas creativos fuera de Adobe.",
+      "La colaboración multiusuario vía Blackmagic Cloud se extiende a la página Photo, permitiendo acceso compartido a álbumes, metadatos, grados y efectos.",
+      "El flujo de trabajo de grado en nodos es idéntico a la página Color, lo que significa que los coloristas pueden aplicar sus habilidades de grado de video a fotos al instante.",
+      "La beta pública está disponible para descarga gratuita de inmediato, reduciendo la barrera para evaluarla."
+    ]
+  },
+  "negatives": {
+    "en": [
+      "Extremely steep learning curve for photographers unfamiliar with node-based color workflows — the interface is designed for video professionals, not photographers.",
+      "Limited RAW format support at launch: only Canon, Fujifilm, Nikon, Sony, and Apple iPhone ProRAW are natively supported. Panasonic Lumix .RW2 and other formats are notably absent.",
+      "Several beta testers reported complete export failures — unable to save edits or export any image, rendering the tool unusable for production work.",
+      "Some Studio-licensed features display as disabled in the beta, with splash graphics that suggest integration is incomplete.",
+      "No print workflow or direct-to-print pipeline — a critical gap for studio and commercial photographers.",
+      "Crashes reported on Linux (Linux Mint) with library-related error messages, suggesting the Photo page has not been fully stress-tested cross-platform.",
+      "Not a complete Lightroom replacement — lacks the depth of organization, metadata editing, and print/web export presets that Lightroom offers after 20 years of development."
+    ],
+    "es": [
+      "Curva de aprendizaje extremadamente pronunciada para fotógrafos no familiarizados con flujos de trabajo de color basados en nodos — la interfaz está diseñada para profesionales de video, no para fotógrafos.",
+      "Soporte limitado de formatos RAW en el lanzamiento: solo Canon, Fujifilm, Nikon, Sony y Apple iPhone ProRAW están soportados nativamente. El Panasonic Lumix .RW2 y otros formatos están notablemente ausentes.",
+      "Varios beta testers reportaron fallos completos de exportación — incapaces de guardar ediciones o exportar imágenes, lo que hace la herramienta inutilizable para trabajo de producción.",
+      "Algunas funciones licenciadas con Studio aparecen como deshabilitadas en la beta, con gráficos que sugieren que la integración está incompleta.",
+      "Sin flujo de trabajo de impresión ni pipeline directo de impresión — una brecha crítica para fotógrafos de estudio y comerciales.",
+      "Se reportaron crashes en Linux (Linux Mint) con mensajes de error relacionados con bibliotecas, lo que sugiere que la página Photo no ha sido completamente probada en múltiples plataformas.",
+      "No es un reemplazo completo de Lightroom — carece de la profundidad de organización, edición de metadatos y presets de exportación para impresión/web que Lightroom ofrece tras 20 años de desarrollo."
+    ]
+  },
+  "bugs": [
+    {
+      "title": { "en": "Complete Export Failure (Beta)", "es": "Fallo Total de Exportación (Beta)" },
+      "severity": "high",
+      "desc": {
+        "en": [
+          "Multiple beta testers have reported that all image exports fail without producing output files.",
+          "Edits cannot be saved or committed in affected sessions, making the Photo page unusable for any deliverable work.",
+          "Blackmagic Design has acknowledged these as beta-stage issues; no patch timeline has been announced."
+        ],
+        "es": [
+          "Múltiples beta testers han reportado que todas las exportaciones de imágenes fallan sin producir archivos de salida.",
+          "Las ediciones no pueden guardarse ni confirmarse en sesiones afectadas, haciendo la página Photo inutilizable para cualquier trabajo con entregables.",
+          "Blackmagic Design ha reconocido estos problemas como propios de la etapa beta; no se ha anunciado un calendario de parches."
+        ]
+      }
+    },
+    {
+      "title": { "en": "Linux Crash on Library Load", "es": "Crash en Linux al Cargar Biblioteca" },
+      "severity": "medium",
+      "desc": {
+        "en": [
+          "Users running Resolve 21 Beta on Linux Mint have reported application crashes triggered by library-related error messages when opening the Photo page.",
+          "The issue appears to be tied to dependency conflicts between Resolve's bundled libraries and system libraries on certain Linux distributions.",
+          "No workaround has been confirmed; Blackmagic Design's official support for Linux is limited compared to macOS and Windows."
+        ],
+        "es": [
+          "Usuarios que ejecutan Resolve 21 Beta en Linux Mint han reportado crashes de la aplicación provocados por mensajes de error relacionados con bibliotecas al abrir la página Photo.",
+          "El problema parece estar vinculado a conflictos de dependencias entre las bibliotecas incluidas en Resolve y las bibliotecas del sistema en ciertas distribuciones Linux.",
+          "No se ha confirmado ninguna solución; el soporte oficial de Blackmagic Design para Linux es limitado en comparación con macOS y Windows."
+        ]
+      }
+    },
+    {
+      "title": { "en": "Studio Features Disabled in Beta", "es": "Funciones Studio Deshabilitadas en Beta" },
+      "severity": "low",
+      "desc": {
+        "en": [
+          "Several AI and collaboration features that require a Studio license are non-functional in the current public beta, even for users with valid Studio licenses.",
+          "A splash graphic appears in place of the feature UI, suggesting these modules have not been fully wired to the licensing system yet.",
+          "This limits meaningful evaluation of the full Studio feature set, particularly IntelliSearch and Blackmagic Cloud collaboration on the Photo page."
+        ],
+        "es": [
+          "Varias funciones de IA y colaboración que requieren una licencia Studio no funcionan en la beta pública actual, incluso para usuarios con licencias Studio válidas.",
+          "Un gráfico de presentación aparece en lugar de la interfaz de la función, lo que sugiere que estos módulos aún no han sido completamente conectados al sistema de licencias.",
+          "Esto limita la evaluación significativa del conjunto completo de funciones Studio, particularmente IntelliSearch y la colaboración de Blackmagic Cloud en la página Photo."
+        ]
+      }
+    }
+  ],
+  "improvements": {
+    "short": {
+      "en": [
+        "Expand RAW format support to include Panasonic Lumix .RW2, OM System, Sigma, Leica, and Fujifilm X-Trans sensor files.",
+        "Resolve the export pipeline failures before the stable release and provide a clear rollback mechanism for corrupted sessions.",
+        "Add a 'photographer mode' or simplified interface preset that surfaces slider-based controls alongside node controls for newcomers."
+      ],
+      "es": [
+        "Ampliar el soporte de formatos RAW para incluir Panasonic Lumix .RW2, OM System, Sigma, Leica y archivos de sensor X-Trans de Fujifilm.",
+        "Resolver los fallos del pipeline de exportación antes del lanzamiento estable y proporcionar un mecanismo de rollback claro para sesiones corruptas.",
+        "Agregar un 'modo fotógrafo' o preset de interfaz simplificada que exponga controles basados en deslizadores junto con los controles de nodos para principiantes."
+      ]
+    },
+    "long": {
+      "en": [
+        "Build a comprehensive print and output workflow — including soft proofing, ICC profile support, and direct printer communication — to compete with Lightroom and Capture One for studio and commercial photographers.",
+        "Develop a dedicated metadata editing panel with IPTC, EXIF batch editing, keyword hierarchies, and GPS map view to match Lightroom's catalog depth.",
+        "Expand tethered shooting support beyond Canon and Sony to include Nikon, Fujifilm, and Phase One, which represent significant segments of the professional photography market."
+      ],
+      "es": [
+        "Construir un flujo de trabajo completo de impresión y salida — incluyendo prueba suave, soporte de perfiles ICC y comunicación directa con impresoras — para competir con Lightroom y Capture One para fotógrafos de estudio y comerciales.",
+        "Desarrollar un panel de edición de metadatos dedicado con edición por lotes de IPTC y EXIF, jerarquías de palabras clave y vista de mapa GPS para igualar la profundidad del catálogo de Lightroom.",
+        "Ampliar el soporte de tethering más allá de Canon y Sony para incluir Nikon, Fujifilm y Phase One, que representan segmentos significativos del mercado fotográfico profesional."
+      ]
+    }
+  },
+  "insights": [
+    {
+      "num": "01",
+      "title": { "en": "Who is actually excited right now?", "es": "¿Quién está realmente entusiasmado ahora mismo?" },
+      "body": {
+        "en": "The strongest enthusiasm this week comes from video colorists and hybrid creators who already live inside Resolve. For them, the Photo page removes the last reason to open Lightroom. Pure photographers, however, are largely adopting a wait-and-see stance — curious but not convinced the node-based learning curve is worth the switch.",
+        "es": "El mayor entusiasmo esta semana proviene de coloristas de video y creadores híbridos que ya viven dentro de Resolve. Para ellos, la página Photo elimina la última razón para abrir Lightroom. Los fotógrafos puros, sin embargo, están adoptando en gran medida una postura de esperar y ver: curiosos pero no convencidos de que la curva de aprendizaje basada en nodos valga el cambio."
+      }
+    },
+    {
+      "num": "02",
+      "title": { "en": "Is the beta good enough to evaluate seriously?", "es": "¿La beta es lo suficientemente buena para evaluarla en serio?" },
+      "body": {
+        "en": "Not yet for photographers. The export failure bug alone disqualifies the current beta for any production use. The beta is useful for exploring the interface and understanding the workflow direction, but decisions about replacing Lightroom should be deferred until at least the first stable update. Colorists testing photo-to-video pipeline integration, however, can gain real value from the beta today.",
+        "es": "Todavía no para los fotógrafos. El bug de fallo de exportación por sí solo descalifica la beta actual para cualquier uso en producción. La beta es útil para explorar la interfaz y entender la dirección del flujo de trabajo, pero las decisiones de reemplazar Lightroom deberían postergarse hasta al menos la primera actualización estable. Los coloristas que prueban la integración del pipeline foto-a-video, sin embargo, pueden obtener valor real de la beta hoy."
+      }
+    },
+    {
+      "num": "03",
+      "title": { "en": "How does Adobe appear to be responding?", "es": "¿Cómo parece estar respondiendo Adobe?" },
+      "body": {
+        "en": "Adobe moved quickly. The same week as the Resolve 21 announcement, Adobe announced a 'first-of-its-kind' new Color Mode in Premiere, signaling they are paying attention. This counter-announcement suggests Adobe is aware of Resolve's growing ambitions and is attempting to preempt defection by highlighting their own color capabilities — a competitive dynamic that ultimately benefits photographers.",
+        "es": "Adobe actuó rápido. La misma semana del anuncio de Resolve 21, Adobe anunció un nuevo 'Color Mode' sin precedentes en Premiere, señalando que están atentos. Este contra-anuncio sugiere que Adobe es consciente de las crecientes ambiciones de Resolve e intenta prevenir la deserción destacando sus propias capacidades de color — una dinámica competitiva que en última instancia beneficia a los fotógrafos."
+      }
+    },
+    {
+      "num": "04",
+      "title": { "en": "What is the RAW support gap telling us?", "es": "¿Qué nos dice la brecha de soporte RAW?" },
+      "body": {
+        "en": "The absence of Panasonic Lumix .RW2 support is particularly symbolic — Panasonic has positioned Lumix cameras for cinema workflows, yet their RAW stills format isn't supported in Resolve 21. This gap, along with missing Nikon tethering, suggests Blackmagic's camera partnership strategy is heavily skewed toward Canon and Sony, which could slow adoption among photographers who shoot Panasonic, OM System, or Fujifilm X-Trans sensor cameras.",
+        "es": "La ausencia de soporte para Panasonic Lumix .RW2 es particularmente simbólica — Panasonic ha posicionado las cámaras Lumix para flujos de trabajo de cine, pero su formato RAW de fotos fijas no está soportado en Resolve 21. Esta brecha, junto con la ausencia de tethering para Nikon, sugiere que la estrategia de asociación de cámaras de Blackmagic está muy sesgada hacia Canon y Sony, lo que podría ralentizar la adopción entre fotógrafos que usan cámaras Panasonic, OM System o de sensor Fujifilm X-Trans."
+      }
+    },
+    {
+      "num": "05",
+      "full": true,
+      "title": { "en": "The Week's Key Strategic Takeaway: A Real Opening, But a Narrow One", "es": "El Insight Estratégico Principal de la Semana: Una Apertura Real, Pero Estrecha" },
+      "body": {
+        "en": "DaVinci Resolve 21's Photo page is the most significant challenge to Adobe Lightroom's monopoly on professional photo editing since Capture One established itself as a high-end alternative. The announcement generated genuine industry excitement — particularly among hybrid video-and-photo creators — and the pricing story is compelling: a one-time $295 Studio license versus a perpetual $120/year subscription. However, the strategic window is narrow and time-limited. Blackmagic must ship a stable, export-reliable release within 60–90 days before early adopters lose patience. The missing RAW formats, the absence of print workflows, and the steep learning curve all create friction that competitors will exploit. The real opportunity here is not to capture Lightroom's existing user base immediately — that's a multi-year effort. The opportunity is to capture every photographer currently evaluating their options: new entrants to the field who haven't committed to Adobe, hybrid creators already using Resolve, and Adobe subscribers who renew each year out of habit rather than conviction. For those users, Resolve 21 now offers a credible answer for the first time. Whether it delivers on that promise depends entirely on the quality and speed of the stable release.",
+        "es": "La página Photo de DaVinci Resolve 21 es el desafío más significativo al monopolio de Adobe Lightroom en la edición de fotos profesional desde que Capture One se estableció como una alternativa de alta gama. El anuncio generó un entusiasmo genuino en la industria — particularmente entre creadores híbridos de video y foto — y la historia de precios es convincente: una licencia Studio de $295 única vez frente a una suscripción perpetua de $120/año. Sin embargo, la ventana estratégica es estrecha y limitada en el tiempo. Blackmagic debe lanzar una versión estable y confiable en exportación dentro de 60–90 días antes de que los adoptantes tempranos pierdan la paciencia. Los formatos RAW faltantes, la ausencia de flujos de trabajo de impresión y la pronunciada curva de aprendizaje crean fricciones que los competidores explotarán. La oportunidad real aquí no es capturar la base de usuarios existente de Lightroom de inmediato — eso es un esfuerzo de varios años. La oportunidad es capturar a cada fotógrafo que actualmente está evaluando sus opciones: nuevos participantes en el campo que no se han comprometido con Adobe, creadores híbridos que ya usan Resolve, y suscriptores de Adobe que renuevan cada año por hábito más que por convicción. Para esos usuarios, Resolve 21 ahora ofrece una respuesta creíble por primera vez. Si cumple esa promesa depende enteramente de la calidad y velocidad del lanzamiento estable."
+      }
+    }
+  ],
+  "exec": {
+    "points": [
+      {
+        "en": "<strong>Beta, not production-ready.</strong> DaVinci Resolve 21's Photo page launched as a public beta on April 14 at NAB 2026. Export failures and crashes mean it cannot yet be recommended for any client-facing photography workflow.",
+        "es": "<strong>Beta, no lista para producción.</strong> La página Photo de DaVinci Resolve 21 se lanzó como beta pública el 14 de abril en NAB 2026. Los fallos de exportación y crashes impiden recomendarla para cualquier flujo de trabajo fotográfico orientado a clientes."
+      },
+      {
+        "en": "<strong>Strong value proposition on pricing.</strong> The free base version and one-time $295 Studio license create a compelling financial argument against Adobe's recurring subscription model, especially for photographers who resent annual fee increases.",
+        "es": "<strong>Propuesta de valor sólida en precio.</strong> La versión base gratuita y la licencia Studio de pago único de $295 crean un argumento financiero convincente frente al modelo de suscripción recurrente de Adobe, especialmente para fotógrafos que rechazan los aumentos anuales."
+      },
+      {
+        "en": "<strong>Color tools are genuinely differentiated.</strong> No other photo editing application offers node-based, Hollywood-grade color grading for still images at any price. This is a real and unique advantage that competitors cannot quickly replicate.",
+        "es": "<strong>Las herramientas de color son genuinamente diferenciadas.</strong> Ninguna otra aplicación de edición fotográfica ofrece grado de color de nivel Hollywood basado en nodos para imágenes fijas a ningún precio. Esta es una ventaja real y única que los competidores no pueden replicar rápidamente."
+      },
+      {
+        "en": "<strong>RAW format gaps limit immediate reach.</strong> Missing support for Panasonic Lumix .RW2 files and limited tethering options (Canon and Sony only) will exclude meaningful segments of the professional photography market until Blackmagic expands camera partnerships.",
+        "es": "<strong>Las brechas en formatos RAW limitan el alcance inmediato.</strong> La falta de soporte para archivos Panasonic Lumix .RW2 y las opciones de tethering limitadas (solo Canon y Sony) excluirán segmentos significativos del mercado fotográfico profesional hasta que Blackmagic amplíe las asociaciones con fabricantes de cámaras."
+      },
+      {
+        "en": "<strong>Adobe is watching and responding.</strong> Adobe's same-week announcement of a new 'Color Mode' in Premiere confirms that the competitive pressure from Resolve 21 is being felt internally at Adobe. Expect Adobe to accelerate Lightroom AI and color feature development in response.",
+        "es": "<strong>Adobe está mirando y respondiendo.</strong> El anuncio de Adobe de un nuevo 'Color Mode' en Premiere la misma semana confirma que la presión competitiva de Resolve 21 se está sintiendo internamente en Adobe. Se espera que Adobe acelere el desarrollo de funciones de IA y color en Lightroom en respuesta."
+      }
+    ],
+    "risks": {
+      "en": [
+        { "level": "h", "text": "Export failure bug in current beta could damage Blackmagic's reputation with photographers if not resolved before the stable launch." },
+        { "level": "m", "text": "Steep learning curve may cause early adopter frustration and reversion to Lightroom before the workflow's advantages become apparent." },
+        { "level": "l", "text": "Missing RAW formats could trigger vocal backlash from Panasonic, Fujifilm, and OM System communities before Blackmagic addresses the gap." }
+      ],
+      "es": [
+        { "level": "h", "text": "El bug de fallo de exportación en la beta actual podría dañar la reputación de Blackmagic con los fotógrafos si no se resuelve antes del lanzamiento estable." },
+        { "level": "m", "text": "La pronunciada curva de aprendizaje puede causar frustración en los adoptantes tempranos y regreso a Lightroom antes de que las ventajas del flujo de trabajo sean evidentes." },
+        { "level": "l", "text": "Los formatos RAW faltantes podrían desencadenar una reacción negativa vocal de las comunidades de Panasonic, Fujifilm y OM System antes de que Blackmagic aborde la brecha." }
+      ]
+    },
+    "opportunities": {
+      "en": [
+        { "level": "h", "text": "Capture hybrid creators already using Resolve for video — they face zero additional learning curve and can immediately benefit from a unified photo+video pipeline." },
+        { "level": "m", "text": "Target Adobe-fatigued photographers during the annual subscription renewal window (typically January–March) with a clear cost comparison and migration guide." },
+        { "level": "l", "text": "Blackmagic Cloud collaboration on the Photo page could appeal to boutique studios doing joint editing sessions — a feature Lightroom doesn't offer natively." }
+      ],
+      "es": [
+        { "level": "h", "text": "Capturar creadores híbridos que ya usan Resolve para video — no enfrentan curva de aprendizaje adicional y pueden beneficiarse inmediatamente de un pipeline unificado de foto+video." },
+        { "level": "m", "text": "Dirigirse a fotógrafos fatigados de Adobe durante la ventana de renovación anual de suscripciones (típicamente enero–marzo) con una comparación de costos clara y una guía de migración." },
+        { "level": "l", "text": "La colaboración en Blackmagic Cloud en la página Photo podría atraer a estudios boutique que hacen sesiones de edición conjunta — una función que Lightroom no ofrece de forma nativa." }
+      ]
+    }
+  }
+}
 ]
